@@ -73,6 +73,6 @@
 
 ---
 
-## 致谢
+## 打赏
 - 如喜欢此应用并支持作者继续开发完善，可以微信打赏，钞能力将有效提升作者的开发效率。
-- ![打赏二维码](https://github.com/kouxiaofang/meego-launcher/blob/72e3b1f1dda9083522228fe7456eac8d4a8ceb93/wechatpay.png?raw=true)
+- ![打赏二维码](https://github.com/kouxiaofang/meego-launcher/blob/09d942cd11d8ce29e3d064a3ee6bab4fa01dde3d/wechatpay.png?raw=true)
