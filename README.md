@@ -4,7 +4,7 @@
 
 ## 应用特点
 
-### 后台主页、应用抽屉页、小部件页左右滑动循环显示
+> **后台主页、应用抽屉页、小部件页左右滑动循环显示**
 
 ### 卡片式后台主页
 - 最近任务以卡片形式平铺，下拉进入菜单，长按卡片进入清理模式，单击叉号结束对应应用的后台进程，下拉可一键清理后台。
@@ -71,4 +71,4 @@
 
 ## 打赏
 - 如喜欢此应用并支持作者继续开发完善，可以微信打赏，钞能力将有效提升作者的开发效率。
-- ![打赏二维码](https://github.com/kouxiaofang/meego-launcher/blob/09d942cd11d8ce29e3d064a3ee6bab4fa01dde3d/wechatpay.png?raw=true)
+![打赏二维码](https://github.com/kouxiaofang/meego-launcher/blob/09d942cd11d8ce29e3d064a3ee6bab4fa01dde3d/wechatpay.png?raw=true)
