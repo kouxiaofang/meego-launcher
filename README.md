@@ -8,12 +8,15 @@
 
 ### 卡片式后台主页
 - 最近任务以卡片形式平铺，下拉进入菜单，长按卡片进入清理模式，单击叉号结束对应应用的后台进程，下拉可一键清理后台。
+![主页](https://github.com/kouxiaofang/meego-launcher/blob/91ee6184716ad63e2596ec3b54a31760a2b2843a/%E4%B8%BB%E9%A1%B5.jpg?raw=true)
 
 ### 应用抽屉页
 - 支持4/5列布局切换、隐藏/显示文字、文件夹显示在最前/最后、隐藏/显示通知角标，下拉进入菜单操作。
+![应用抽屉页](https://github.com/kouxiaofang/meego-launcher/blob/91ee6184716ad63e2596ec3b54a31760a2b2843a/%E5%BA%94%E7%94%A8%E6%8A%BD%E5%B1%89.jpg?raw=true)
 
 ### 小部件页
 - 因hyperos不暴漏时钟和天气内置小部件，所以自己给时钟、天气各做了2个小部件。支持关闭小部件页，看个人操作习惯。
+![小部件页](https://github.com/kouxiaofang/meego-launcher/blob/91ee6184716ad63e2596ec3b54a31760a2b2843a/%E5%B0%8F%E9%83%A8%E4%BB%B6.jpg?raw=true)
 
 ### 其他
 - 双击桌面空白处锁屏（需要 Shizuku 或 Root）。
@@ -40,20 +43,6 @@
 由于大量依赖系统私有的窗口 inset 行为、`AppWidgetHost` 实现细节与 Shizuku 授权流程，**不保证在其他品牌或其他系统的手机上能正常运行**（可能出现布局偏移、小部件无法添加、进程结束后台失败、闪退等问题）。
 
 在非 HyperOS 4 设备上使用前请自行评估，出现问题时欢迎反馈，但不承诺修复。
-
-
-## 权限说明
-
-| 权限 | 用途 |
-| --- | --- |
-| `QUERY_ALL_PACKAGES` | 列出已安装应用 |
-| `PACKAGE_USAGE_STATS` | 按使用频率排序、读取最近任务 |
-| `KILL_BACKGROUND_PROCESSES` | 结束应用后台进程 |
-| `BIND_APPWIDGET` | 托管系统小部件 |
-| `INTERNET` | 天气小部件联网取数 |
-| `moe.shizuku.manager.permission.API_V23` | 通过 Shizuku 执行特权操作 |
-
-天气小部件会访问以下公开接口（均无需 API Key）：`ip-api.com`（根据 IP 得到城市与经纬度）、`open-meteo.com`（实况、最高最低温、逐时预报）、Open-Meteo Air Quality（空气质量指数）。除天气请求外，应用不会上传任何个人数据，也不含统计与广告 SDK。
 
 
 ## 声明
